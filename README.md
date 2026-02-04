@@ -1,6 +1,6 @@
 # HKU-InnoWing-STT-TTS-Workshop
 
-Welcome to the Speech-to-Text (STT) & Text-to-Speech (TTS) Workshop organized by InnoWing, HKU.
+Welcome to the Speech-to-Text (STT) & Text-to-Speech (TTS) Workshop by InnoWing, HKU.
 ---
 Repository developed by CHAMADOL Nutnornont & Ivan
 
