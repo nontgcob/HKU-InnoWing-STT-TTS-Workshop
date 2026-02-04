@@ -1,1 +1,1 @@
-# InnoWing-STT-TTS-Workshop
+# HKU-InnoWing-STT-TTS-Workshop
