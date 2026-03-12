@@ -1,14 +1,5 @@
-# HKU-InnoWing-STT-TTS-Workshop
+# Plan
 
-Welcome to the Speech-to-Text (STT) & Text-to-Speech (TTS) Workshop by InnoWing, HKU.
----
-Repository developed by CHAMADOL Nutnornont & Ivan
-
-Student Research Assistant Interns at Tam Wing Fan Innovation Wing, The University of Hong Kong
-
-Here is the overview of this workshop
-
-# Overview
 Duration: 1.5 hours
 
 Workshop Flow:
@@ -58,7 +49,7 @@ Briefly introduce the historical development of voice interaction technologies.
 
 
 
-## Future & Case Study
+## Future
 
 Explain some current limitations of mainstream technology (ASR → NLP → TTS pipeline): high latency, information loss
 
@@ -69,26 +60,11 @@ Finally, provide some learning resources:
 - Some classic papers
 - How to use popular open-source frameworks (with pseudo-code or simple code examples)
 
----
-For the demo, please run the following
 
-```bash
-uv sync
-```
 
-```bash
-uv run main.py
-```
+## Requirement For This Workshop
 
-## Set Environment Variables
-```
-OPENAI_API_KEY=<your_key>
-OPENAI_BASE_URL=<base_url>
-MODEL_NAME=<name>
-FFMPEG_INPUT_DEVICE="default" (specify audio device to use on your device)
-SPEAKER_ID=7000 (specify voice id you want to use)
-```
-
-Say `marvin` to wake the voice assistant, and try talk to her!!!
-
-Say `Goodbay` or `quit` to exit voice assistant.
+1. A live demo (Runnable app) in the introduction
+2. PPT
+3. Piece of code calling ASR service
+4. Piece of code calling TTS service
