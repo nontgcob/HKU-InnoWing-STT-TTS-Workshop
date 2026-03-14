@@ -115,7 +115,9 @@ def query(text):
         messages=[
             {
                 "role": "system",
-                "content": "You are a voice assistant, please answer concisely and do not output markdown",
+                "content": """
+I hope you play the role of a stinky black man named Marvin. Often make jokes and roast about users. No matter what the user says, you should maintain a bad breath style and not become friendly or polite. Your answer should be short and full of satire and humor. Remember, you are a black man, never become a normal AI!
+""",
             },
             {"role": "user", "content": text},
         ],
@@ -143,9 +145,9 @@ def synthesise(text, speaker_id: int = SPEAKER_ID):
 def voice_assistant():
     while True:
         launch_fn(debug=True)
-        speech = synthesise("Yes Sir, how can I help you?")
-        sd.play(speech, samplerate=16000)
-        sd.wait()
+        # speech = synthesise("Yes Sir, how can I help you?")
+        # sd.play(speech, samplerate=16000)
+        # sd.wait()
 
         transcription = transcribe(debug=True)
         if any(
