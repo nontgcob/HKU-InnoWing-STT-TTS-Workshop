@@ -1,4 +1,4 @@
-# HKU-InnoWing-STT-TTS-Workshop
+# Speak and Be Heard - Inside Modern Voice Assistant
 
 Welcome to the Speech-to-Text (STT) & Text-to-Speech (TTS) Workshop by InnoWing, HKU.
 
