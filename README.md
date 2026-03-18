@@ -6,31 +6,26 @@ Repository developed by CHAMADOL Nutnornont & Ivan Xieyi Fan
 
 Student Research Assistant Interns at Tam Wing Fan Innovation Wing, The University of Hong Kong
 
-Here is the overview of this workshop
-
-# Overview
+# Workshop Overview
 Duration: 1.5 hours
 
 Workshop Flow:
 
-1. Introduction (10 min)
-2. Automatic Speech Recognition (ASR) Technology
-3. Text To Speech (TTS) Technology
-4. Cutting Edge Technologies
-
-
+1. Introduction: Motivation & Live Demo
+2. Fundamental Concepts & Coding Skills
+3. Speech Generation (Text-to-Speech, TTS) Technology
+4. Speech Recognition (Speech-to-Text, STT) Technology
+5. Handling Unseen Words in Speech Recognition
 
 ## Introduction
 
 Start with a live runnable Demo: Voice wake-up (e.g. "Xiao Ai"/ "Jarvis"), voice command (e.g. ask it to translate), voice output (AI speaks the translated result)
 
-Use PPT to explain the underlying workflow of the entire demo (VAD → ASR → LLM/NLP → TTS)
+Explain the underlying workflow of the entire demo (VAD → ASR → LLM/NLP → TTS)
 
 Briefly introduce the historical development of voice interaction technologies.
 
-
-
-## ASR
+## Speech Recognition (STT)
 
 1. Introduce basic audio concepts (sample rate, bit depth)  
    [Goal: Help non-technical students understand how audio is stored and captured]
@@ -42,9 +37,7 @@ Briefly introduce the historical development of voice interaction technologies.
 4. What are the mainstream models nowadays, and what are their core ideas? (CTC loss, Transformer/Conformer)
 5. Show a piece of code in Colab that calls e.g. Hugging Face or OpenAI service (teach participants how to use them)
 
-
-
-## TTS
+## Speech Generation (TTS)
 
 1. Introduce the evolution path of TTS technology (if possible, compare using three audio clips or live demos):
    1. Early concatenation-based methods
@@ -56,11 +49,9 @@ Briefly introduce the historical development of voice interaction technologies.
    3. Vocoder
 3. Show a piece of code calling a TTS service, demonstrating results with different parameters (emotion, speech rate/length, etc.)
 
+## Handling Unseen Words in Speech Recognition
 
-
-## Future & Case Study
-
-Explain some current limitations of mainstream technology (ASR → NLP → TTS pipeline): high latency, information loss
+Explain some current limitations of mainstream technology (STT → NLP → TTS pipeline): high latency, information loss
 
 Introduce that current mainstream research is moving toward fully End-to-End models (speech input directly to speech output)
 
