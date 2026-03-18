@@ -80,8 +80,7 @@ def demo():
                     sources=["microphone"],
                     type="numpy",
                     waveform_options=gr.WaveformOptions(
-                        waveform_color="#01C6FF",
-                        skip_length=100,
+                        waveform_color="#01C6FF", sample_rate=16000
                     ),
                 )
 
@@ -127,4 +126,4 @@ def demo():
 
 if __name__ == "__main__":
     app = demo()
-    app.launch(share=False, theme=gr.themes.Soft())
+    app.launch(share=False, theme=gr.themes.Soft(), debug=True)
